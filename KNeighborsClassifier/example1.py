@@ -10,4 +10,4 @@ neigh.fit(training, labels)                      #fit the training set = conduct
 queries = [[30, -1], [-20, 3], [1, 4], [9, 100]]
 d =  neigh.predict(queries)
 
-print(d)
+print(d) #print the labels for the query points
